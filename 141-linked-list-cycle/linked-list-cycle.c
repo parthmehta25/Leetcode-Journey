@@ -9,10 +9,6 @@ bool hasCycle(struct ListNode *head) {
     struct ListNode *slow = head;
     struct ListNode *fast = head;
 
-    // if(head == NULL || head->next == NULL)
-    // {
-    //     return false;
-    // }
 
     while(fast != NULL && fast->next != NULL)
     {
